@@ -1,0 +1,29 @@
+{
+  "name": "os-aqua",
+  "version": "1.0.0",
+  "description": "Top Content Aqua Brand",
+  "main": "index.js",
+  "scripts": {
+    "build:html": "pug src/markup/index.pug --out public --pretty",
+    "postbuild:html": "js-beautify --type html --indent-size 4 -r -f public/index.html",
+    "prebuild:css": "node-sass --indent-type space --indent-width 4 --output-style expanded src/styles/style.sass --include-path src/styles/** --output public/assets/css --recursive",
+    "build:css": "postcss --use postcss-cssnext --config config/cssnext.json --no-map --replace public/assets/css/style.css",
+    "build": "npm run build:html && npm run build:css",
+    "serve": "browser-sync start -c config/browserSync.js",
+    "watch": "npm run build -- --watch",
+    "start": "npm run build && npm run serve"
+  },
+  "author": "abdusa",
+  "license": "Tokopedia",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "js-beautify": "^1.6.14",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
+    "postcss": "^6.0.8",
+    "postcss-cli": "^4.1.0",
+    "postcss-cssnext": "^3.0.2",
+    "pug": "^2.0.0-rc.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
