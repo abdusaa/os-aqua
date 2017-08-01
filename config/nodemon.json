@@ -1,0 +1,19 @@
+{
+    "verbose": true,
+    "ext": "pug sass js",
+    "ignore": [
+        "node_modules",
+        ".git",
+        "public"
+    ],
+    "watch": [
+        "src/markup/",
+        "src/styles/",
+        "src/vendors/",
+        "public/assets/js/"
+    ],
+    "execMap": {
+        "html": "npm run build:html",
+        "css": "npm run build:css"
+    }
+}

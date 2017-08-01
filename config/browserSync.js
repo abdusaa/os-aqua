@@ -13,5 +13,6 @@ module.exports = {
     },
     "port": 4000,
     "notify": false,
-    "injectChanges": true
+    "injectChanges": true,
+    "reloadDebounce": 800
 };

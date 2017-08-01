@@ -10,7 +10,7 @@
 <!--<![endif]-->
 
 <head>
-    <script async="" src="http://js.aa-alam.ndvl/js/shoplogin?id=641&amp;callback=show_last_online&amp;_=1500951099561"></script>
+    <script async="" src="http://js.aa-alam.ndvl/js/shoplogin?id=641&amp;callback=show_last_online&amp;_=1501054359495"></script>
     <style type="text/css">
         @charset "UTF-8";
         [ng\:cloak],
@@ -35,7 +35,7 @@
             position: absolute;
         }
     </style>
-    <title>Aqua | Tokopedia</title>
+    <title>andrew's shop - Pamulang | Tokopedia</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="andrew's shop - Pamulang | Tokopedia">
@@ -65,6 +65,7 @@
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-jquery.mCustomScrollbar.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-tab.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-form.css" type="text/css">
+    <link rel="stylesheet" href="http://aa-alam.ndvl/css/select2.min.4.0.2.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-popup-shop-fave.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/jquery-ui.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-bootstrap-short.css" type="text/css">
@@ -80,7 +81,6 @@
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/icheck.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/mobile-mrp.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-map_instant_courier.css" type="text/css">
-    <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-iframe-login.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/dv3-reputation.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/chartist.min.css" type="text/css">
     <link rel="stylesheet" href="http://aa-alam.ndvl/css/jssocials.css" type="text/css">
@@ -100,6 +100,42 @@
     <script type="text/javascript" async="" src="http://www.google-analytics.com/plugins/ua/ec.js"></script>
     <script type="text/javascript" async="" src="http://www.google-analytics.com/analytics.js"></script>
     <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-KDL5SK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({
+            'event': 'authenticated',
+            'contactInfo': {
+                "userSeller": 1,
+                "userFullName": "Andrew Efendi",
+                "userDefaultShipping": {
+                    "country": "Indonesia",
+                    "district": "Kebon Jeruk",
+                    "city": "Jakarta Barat",
+                    "province": "DKI Jakarta",
+                    "postalCode": "11721"
+                },
+                "loginType": 1,
+                "dateShopCreated": "1444037664",
+                "shopProductCount": 0,
+                "shopGold": 0,
+                "userMSISDNVerifiedTime": "1443632400",
+                "shopTransactionCount": 0,
+                "phoneNumber": "#8381010229",
+                "gender": 0,
+                "userEmail": "sYntic.mail@gmail.com",
+                "shopLocation": "Bandung",
+                "userId": 2737,
+                "emailCrypt": "5ead565cedc45782e1a1b45332011634",
+                "ec256": "184a06553559eb6511d75d8511183c6c75c5dbf91630f0f1aa64efba10a6a771",
+                "userMSISDNVerified": 1,
+                "birthDate": 827107200,
+                "shopName": "terlalu mahalllll",
+                "userStatus": 1,
+                "isQcAccount": 0,
+                "shopId": 1783
+            },
+        });
+    </script>
     <script type="text/javascript">
         var inbox_url = "http://go.aa-alam.ndvl:3000/talk/v1/inbox";
         var talk_url = "http://go.aa-alam.ndvl:3000/talk/v1";
@@ -109,11 +145,16 @@
     <script type="text/javascript">
         var message_url = "http://go.aa-alam.ndvl:3000/message/v1";
         var message_v2_url = "http://go.aa-alam.ndvl:3000/message/v2";
-        var etalase_url = "http://192.168.100.160:3002/v1/web-service/shop/get_etalase";
-        var shop_info_url = "http://192.168.100.160:3002/v1/shop/";
+        var etalase_url = "http://devel-go.tkpd:3002/v1/web-service/shop/get_etalase";
+        var shop_info_url = "http://devel-go.tkpd:3002/v1/shop/";
     </script>
     <script type="text/javascript">
         var kunyit_token_url = "http://go.aa-alam.ndvl:3000/token/v1";
+    </script>
+    <script type="text/javascript">
+        var reputationapp_url = "http://go.hl-harry.ndvl:8888/";
+        var reputationapp_url_mobile = "http://go.hl-harry.ndvl:8888/";
+        var tome_url = "http://go.ak-alvin.ndvl:3002/";
     </script>
     <script type="text/javascript">
         var ads_utm = {};
@@ -121,16 +162,16 @@
         ads_utm.source = "xsource";
         ads_utm.medium = "desktop";
         var ads_auth = {};
-        ads_auth.user_id = 0;
+        ads_auth.user_id = 2737;
         ads_auth.user_agent = "desktop";
-        ads_auth.shop_id = 0;
+        ads_auth.shop_id = 1783;
         var ads_source = "xsource";
         var ads_right = "6";
         var ads_item = "12";
         var ads_ajax_go = "0";
         var ab_test = "";
         var product_ads_ajax_url = "http://new.aa-alam.ndvl/ajax/promo.pl";
-        var product_ads_ajax_go = "http://192.168.100.160:8765";
+        var product_ads_ajax_go = "http://devel-go.tkpd:8765";
         var product_dink_ajax_url = "http://new.aa-alam.ndvl/ajax/promo-na.pl";
         var shop_ads_ajax_url = "http://new.aa-alam.ndvl/ajax/promo.pl";
         var manage_ads_ajax_url = "http://new.aa-alam.ndvl/ajax/shop/manage-ad.pl";
@@ -150,54 +191,54 @@
     <link rel="dns-prefetch" href="//www.google-analytics.com">
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <script type="text/javascript">
-        var lp_url = "http://192.168.100.160:8005";
+        var lp_url = "http://devel-go.tkpd:8005";
     </script>
     <script type="text/javascript">
-        var reputation_score_url = "http://go.aa-alam.ndvl:3000/reputation/v1/";
+        var reputation_score_url = "http://go.aa-alam.ndvl:8888/reputation/api/v1/";
         var reputation_badge_off = "http://aa-alam.ndvl/img/badges-off.jpg";
     </script>
     <script type="text/javascript">
-        var gm_sidebar_url = "http://192.168.100.160:9001/v1/shopstats/shopscore/sum/";
-        var s_id = "0";
-        var gold_sidebar_auth = "TKPD Tokopedia:nPPvhmqNywriueZBJgVokAN3W3o=";
-        var gold_sidebar_date = "Tue, 25 Jul 2017 09:51:37 +0700";
+        var gm_sidebar_url = "http://devel-go.tkpd:9001/v1/shopstats/shopscore/sum/";
+        var s_id = "1783";
+        var gold_sidebar_auth = "TKPD Tokopedia:vohqrQMDefxSgQ4UuxXCli4oWgU=";
+        var gold_sidebar_date = "Wed, 26 Jul 2017 14:32:36 +0700";
         var gold_sidebar_md5 = "1234567890asdfghjkl";
     </script>
     <script type="text/javascript">
-        var sidebar_ads_ajax_go = "http://192.168.100.160:30194";
+        var sidebar_ads_ajax_go = "http://devel-go.tkpd:30194";
         var sidebar_microsite_ads_url = "http://new.aa-alam.ndvl/iklan";
         var ads_sidebar = {};
-        ads_sidebar.user_id = 0;
+        ads_sidebar.user_id = 2737;
         ads_sidebar.user_agent = "desktop";
-        ads_sidebar.shop_id = 0;
-        ads_sidebar.auth_date = "Tue, 25 Jul 2017 09:51:37 +0700";
-        ads_sidebar.auth_d_deposit = "TKPD Tokopedia:IFk5oJVmCPmd12pTCLjHdc44nAw=";
-        ads_sidebar.md5_d_deposit = "6204597df3decd562f8145de424d4f59";
+        ads_sidebar.shop_id = 1783;
+        ads_sidebar.auth_date = "Wed, 26 Jul 2017 14:32:36 +0700";
+        ads_sidebar.auth_d_deposit = "TKPD Tokopedia:4JootwBVz10M8xtE1x/PiojDizU=";
+        ads_sidebar.md5_d_deposit = "f955501c8b300ea6189025546e452bb6";
     </script>
     <script>
-        var host_tome = 'http://192.168.100.160:3002';
+        var host_tome = 'http://js.la-leben.ndvl/tome';
     </script>
     <script type="text/javascript">
-        var reputation_score_url = "http://go.aa-alam.ndvl:3000/reputation/v1/";
+        var reputation_score_url = "http://go.aa-alam.ndvl:8888/reputation/api/v1/";
         var reputation_badge_off = "http://aa-alam.ndvl/img/badges-off.jpg";
     </script>
     <script type="text/javascript">
         var shop_speed_host_url = "http://192.168.6.17";
     </script>
-    <script type="text/javascript">
+    <script>
         window.dataLayer = window.dataLayer || [];
         dataLayer.push({
             'event': 'viewShopPage',
             'catalogInfo': 641
         });
     </script>
-    <script type="text/javascript">
-        var manage_shop_id = 0;
+    <script>
+        var manage_shop_id = 1783;
         var page_shop_id = 641;
         var wishlist = {
             products: {
                 get: {
-                    url: ''
+                    url: 'http://devel-go.tkpd:8080/v1/users/2737/wishlist/check/'
                 },
                 post: {
                     url: '',
@@ -210,12 +251,14 @@
         var search_ajax_product_url = "http://ace.gg-gio.ndvl/search/v2.6/product";
         var search_ajax_product_url_v3 = "http://ace.gg-gio.ndvl/search/product/v3";
         var search_ajax_product_attribute_url = "http://ace.gg-gio.ndvl/search/product/attributes/v3";
+        var search_ajax_related_keyword = "http://ace.gg-gio.ndvl/related/v1";
         var search_ajax_catalog_url = "http://ace.gg-gio.ndvl/search/v1/catalog";
         var search_ajax_shop_url = "http://ace.gg-gio.ndvl/search/v1/shop";
         var spell_ajax_product_url = "http://ace.gg-gio.ndvl/search/v1/spell/product";
         var search_ajax_catalog_product_url = "http://ace.gg-gio.ndvl/search/v1/catalog/product";
         var search_ajax_catalog_price_range = "http://ace.gg-gio.ndvl/v1/price_range";
         var search_ajax_dynamic_attributes = "http://ace.gg-gio.ndvl/v1/dynamic_attributes";
+        var search_ajax_dynamic_attributes_v11 = "http://ace.gg-gio.ndvl/v1.1/dynamic_attributes";
         var domain_url = "http://new.aa-alam.ndvl";
         var mobile_domain_url = "http://m.aa-alam.ndvl";
         var gold_image_url = "http://aa-alam.ndvl/img/gold-active.png";
@@ -226,24 +269,6 @@
 </head>
 
 <body cz-shortcut-listen="true">
-    <!-- Google Tag Manager Development-->
-    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDL5SK&nojscript=true"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <script type="text/javascript">
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-KDL5SK');
-    </script>
-    <!-- End Google Tag Manager Development-->
     <header class="navbar navbar-fixed-top" style="position: absolute;">
         <div class="navbar-inner">
             <div class="container-header-full clearfix">
@@ -435,7 +460,227 @@
             </div>
         </div>
     </header>
-    <h1>hello</h1>
+    <div id="content-container">
+        <div id="verify_number"></div>
+        <!-- BLOCK_UNSUPPORTED_BROWSER-->
+        <div class="container" itemscope="" itemtype="http://schema.org/WebPage">
+            <div class="row-fluid"></div>
+        </div>
+        <div class="none mt-15 mb-25" id="sticky-div">
+            <div class="row-fluid mb-10 alert-info container ticker-container">
+                <div class="ticker-box" id="sticky-note-container">
+                    <div class="pull-left mt-10 mb-10 ml-20 mr-25 white relative w-30 h-38"><span><i></i></span></div>
+                    <div class="pull-left mt-5 ml-10 mr-10 fs-14">
+                        <ul class="newsticker" id="sticky-note" style="height: 40px; overflow: hidden;"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var active_page = '';
+        </script>
+        <div class="container" itemscope="" itemtype="http://schema.org/WebPage">
+            <div class="row-fluid"></div>
+        </div>
+        <section class="tab-content-shop" id="tab-content-shop-641" itemscope="" itemtype="http://schema.org/Organization">
+            <div class="alert alert-block shop-inactive-remark" style="display: none;"><b>Toko tidak aktif selama lebih dari 7 hari</b>
+                <p>Untuk kenyamanan bertransaksi, kami menyarankan pembeli untuk memastikan terlebih dahulu toko yang dipilih dalam keadaan aktif. Info status keaktifan ini dapat diakses di halaman masing-masing toko.</p>
+            </div><span class="ng-scope" id="MessageApp" ng-app="MessageApp" ng-controller="MessageController" receiver-name="andrew's shop" receiver-id="641" user-id="0">
+        <div class="row-fluid shop-header">
+          <div class="shop-official relative clearfix">
+            <div class="shop-official__cover"><a class="pull-left" href="http://new.mf-fadil.ndvl/penjual">
+                <source type="image/webp" srcset="http://devel-go.tkpd:3001/img/1920/shops-1/2016/10/28/1032/1032_36320ba1-ff2f-4565-83e4-dce1220810cb.jpg.webp">
+                <picture><img class="photo" id="shop-cover" src="http://devel-go.tkpd:3001/img/1920/shops-1/2016/10/28/1032/1032_36320ba1-ff2f-4565-83e4-dce1220810cb.jpg" alt="andrew's shop"></picture></a></div>
+            <div class="shop-official_container">
+              <div class="container">
+                <div class="span7 relative">
+                  <div class="shop-official__logo" style="width: 120px; height: 120px;"><img src="http://devel-go.tkpd:3001/img/215-square/shops-1/2017/5/30/641/641_dc17b834-65b9-4d3c-99df-b9923fda9b35.jpg" alt="andrew's shop"></div>
+                  <div class="shop-official__name pt-20 clearfix" style="margin-left: 135px;">
+                    <h1 class="mb-0 pull-left">andrew's shop</h1>
+                    <div class="icon pull-left mt-10 ml-10"><a class="cursor-default official-shop-badge" data-original-title="" title=""><i class="image-official-badge cursor-default inline-block va-middle" title="" data-original-title="Official Store"></i></a></div>
+                  </div>
+                  <div class="shop-official__slogan row-fluid" style="margin-left: 135px; margin-bottom: 10px;">Aqua</div>
+                  <div class="row-fluid shop-official__share mb-10" style="margin-left: 135px;">
+                    <input id="twitter-hash-tags" type="hidden" name="twitter_hash_tags" value=",Tokopedia">
+                    <div class="product-socialholder__label pull-left pt-10 pb-10 mr-10">Bagikan :</div>
+                    <div class="product-socialholder__button official-shop-sharePage jssocials" id="b-share">
+                      <div class="jssocials-shares">
+                        <div class="jssocials-share jssocials-share-facebook"><a class="jssocials-share-link" target="_blank" onclick="window.open('https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fnew.aa-alam.ndvl%2Fpenjual%3Futm_campaign%3Dandrews%2520shop%26utm_medium%3Dshare_button%26utm_source%3Dfacebook','_blank','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no, scrollbars=yes, resizable=yes, width=800, height=600');"><i class="icon-facebook white jssocials-share-logo"></i></a></div>
+                        <div class="jssocials-share jssocials-share-twitter"><a class="jssocials-share-link" target="_blank" onclick="window.open('https://twitter.com/share?url=http%3A%2F%2Fnew.aa-alam.ndvl%2Fpenjual%3Futm_campaign%3Dandrews%2520shop%26utm_medium%3Dshare_button%26utm_source%3Dtwitter&amp;text=andrew's%20shop%20-%20Pamulang%20%7C%20Tokopedia&amp;via=Tokopedia&amp;hashtags=%2CTokopedia','_blank','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no, scrollbars=yes, resizable=yes, width=800, height=600');"><i class="icon-twitter white jssocials-share-logo"></i></a></div>
+                        <div class="jssocials-share jssocials-share-googleplus"><a class="jssocials-share-link" target="_blank" onclick="window.open('https://plus.google.com/share?url=http%3A%2F%2Fnew.aa-alam.ndvl%2Fpenjual%3Futm_campaign%3Dandrews%2520shop%26utm_medium%3Dshare_button%26utm_source%3Dgoogleplus','_blank','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no, scrollbars=yes, resizable=yes, width=800, height=600');"><i class="icon-google-plus white jssocials-share-logo"></i></a></div>
+                        <div class="jssocials-share jssocials-share-blogger"><a class="jssocials-share-link" target="_blank" onclick="window.open('http://blogger.com/blog-this.g?n=andrews%20shop%20-%20Pamulang%20%7C%20Tokopedia&amp;t=Belanja%20online%20aman%20dan%20nyaman%20dari%20andrews%20shop%20-%20aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa&amp;u=http%3A%2F%2Fnew.aa-alam.ndvl%2Fpenjual%3Futm_campaign%3Dandrew's%2520shop%26utm_medium%3Dshare_button%26utm_source%3Dblogger','_blank','directories=no,titlebar=no,toolbar=no,location=no,status=no,menubar=no, scrollbars=yes, resizable=yes, width=800, height=600');"><i class="icon-blogger white jssocials-share-logo"></i></a></div>
+                        <div class="jssocials-share jssocials-share-copy"><a class="jssocials-share-link" target="_blank"><i class="icon-link white jssocials-share-logo"></i></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="span5">
+                  <div class="row-fluid">
+                    <div class="shop-official__stat">
+                      <div class="shop-official__rating mt-0" id="shop-official-stat__info">
+                        <ul class="inline">
+                          <li><span class="shop-speed icon-tooltip" id="shop-speed" data-toggle="tooltip" data-original-title="Belum Tersedia (1 bulan terakhir)"><span class="speed-badge"><i class="badge-speed-null"></i></span>
+            <div class="text-center"><span class="gray fs-12 font-default">Kecepatan Toko</span></div>
+            </span>
+            </li>
+            <li class="favorite-wrapper">
+                <a>
+                    <div class="text-center mb-3"><i class="icon-heart-alt va-texttop mr-5"></i><span class="text-big shop-faved-total" id="favorit-shop"><b class="shop-faved-total" id="favorit-shop">26</b></span></div>
+                    <div class="text-center"><span class="gray fs-12">Favorit</span></div>
+                </a>
+            </li>
+            </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="shop-official__action">
+        <div class="container">
+            <div class="row-fluid">
+                <div class="span6">
+                    <ul class="official-shop-tab">
+                        <li class="active"><a href="http://new.mf-fadil.ndvl/penjual">Produk</a></li>
+                        <li><a href="http://new.mf-fadil.ndvl/penjual/talk">Diskusi Produk</a></li>
+                        <li><a href="http://new.mf-fadil.ndvl/penjual/review">Ulasan</a></li>
+                        <li><a href="http://new.mf-fadil.ndvl/penjual/info"><i class="icon-info-sign icon-large"></i> Informasi Toko</a></li>
+                    </ul>
+                </div>
+                <div class="span6">
+                    <div class="pull-right">
+                        <div class="pull-left ml-15">
+                            <button class="btn btn-second button pull-right" id="s_send_pm" data-ng-click="clickToOpen('shop')" type="button"><i class="icon-message-alt"></i>  Kirim Pesan</button>
+                        </div>
+                        <div class="pull-left ml-15" id="fave_shop_official">
+                            <div id="fave_this_shop">
+                                <button class="btn btn-action btn-fav-alt fw-300 w-120" id="s_fave_this_shop" type="button"><span class="va_top">+</span>  Favoritkan</button>
+                            </div>
+                            <div id="already_fave" style="display:none;">
+                                <button class="official-fav-btn-fill" id="berhenti" type="button" style="display:none;"><i class="icon-remove"></i>  Berhenti Favorit</button>
+                                <button class="btn btn-action btn-fav-alt fw-300 w-120 btn-second" id="favoritku" type="button"><i class="icon-checked"></i>  Favorit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </span>
+    <input id="token" type="hidden" name="token" value="">
+    <input id="tlogin-url" type="hidden" name="tlogin_url" value="http://accounts.aa-alam.ndvl/login?theme=default">
+    <input id="shop-id" type="hidden" name="shop_id" value="641">
+    <input id="shop_name" type="hidden" name="shop_name" value="andrew's shop">
+    <input id="prosecure_badge" type="hidden" name="prosecure_badge" value="https://products-staging.tokopedia.com/v1/prosecure/badge">
+    <input id="is-official" type="hidden" name="is-official" value="1">
+    <div class="official-container-full bg-grey pt-20 pb-50"></div>
+    </section>
+    <!-- ===== EOF_ Shop =====-->
+    <div class="absolute status-shop-overlay shop-overload-inactive white" style="display: none;">
+        <div class="status-shop-overlay-content">
+            <div class="text-center fs-13">Status Toko : <br><span class="bold uppercase fs-20">Tidak Aktif</span></div>
+        </div>
+    </div>
+    </div>
+    <footer class="footer-wrapper">
+        <div class="footer-main">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="footer-item">
+                        <h3 class="fs-14">Tokopedia</h3>
+                        <ul>
+                            <li><a href="http://new.aa-alam.ndvl/about">Tentang Kami</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/careers">Karir</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/blog" target="_blank">Blog</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/brand-asset" target="_blank">Media Kit</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/kisah-penjual" target="_blank">Kisah Penjual</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/official-store" target="_blank">Toko Resmi</a></li>
+                            <li><a href="https://tiket.tokopedia.com/kereta-api/" target="_blank">Pesan Tiket Kereta</a></li>
+                            <li><a href="https://events.tokopedia.com/" target="_blank">Kegiatan Kami</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/mitra-toppers?nref=mtfoot" target="_blank">Mitra Toppers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="fs-14">Beli</h3>
+                        <ul>
+                            <li><a href="http://new.aa-alam.ndvl/bebas-penipuan">Belanja di Tokopedia</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/panduan/beli">Cara Berbelanja</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/bantuan/konfirmasi-verifikasi">Pembayaran</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/bantuan/pemesanan-pengiriman-pembeli/pesanan-batal-dana-kemana">Pengembalian Dana</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/hot">Hot List</a></li>
+                            <li><a href="http://new.rw-wibi.ndvl/pulsa/" target="_blank">Isi Ulang Pulsa</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="fs-14">Jual</h3>
+                        <ul>
+                            <li><a href="http://new.aa-alam.ndvl/jualan-online">Jualan di Tokopedia</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/panduan/jual">Cara Berjualan</a></li>
+                            <li><a class="click-gold-footer" href="http://gold.rw-wibi.ndvl/">Gold Merchant</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/iklan">Beriklan</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/bantuan/cara-tarik-dana/tarik-dana">Penarikan Dana</a></li>
+                            <li><a href="https://seller.tokopedia.com/?nref=lsfoot" target="_blank">Seller Center</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h3 class="fs-14">Bantuan</h3>
+                        <ul>
+                            <li><a href="http://new.aa-alam.ndvl/terms.pl">Syarat dan Ketentuan</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/privacy.pl">Kebijakan Privasi</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/resolution-center">Pusat Resolusi</a></li>
+                            <li><a href="http://new.rw-wibi.ndvl/bantuan/">Hubungi Kami</a></li>
+                            <li><a href="http://new.aa-alam.ndvl/blog/2015/08/panduan-keamanan-tokopedia/">Panduan Keamanan</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <div class="seal-account">
+                            <div class="pci-seal clearfix">
+                                <h3 class="mb-10">Keamanan</h3><a class="mt-5" href="https://seal.controlcase.com/index.php?page=showCert&amp;cId=3968489199" target="_blank"><img src="http://rw-wibi.ndvl/img/footer/PCI_logo.gif" oncontextmenu="return false;"></a><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-item">
+                        <div class="box box-white box-shadow text-center p-10">
+                            <a class="app-badges" target="_blank" href="http://new.aa-alam.ndvl/mobile-apps">
+                                <div class="row-fluid mt-10 ml-5">
+                                    <div class="span3"><img alt="Tokopedia at Appstore" src="http://rw-wibi.ndvl/img/footer/mobile-icon.png"></div>
+                                    <div class="span9">
+                                        <h3 class="fs-12 text-left bold mt-10 mb-0 lh-16">Dapatkan Aplikasi Mobile Tokopedia »</h3>
+                                        <div class="text-left small-gray">
+                                            <div class="pull-left">IOS</div>
+                                            <div class="ml-5 mr-5 mt-2 fs-18 pull-left bull">•</div>
+                                            <div class="pull-left">Android</div>
+                                            <div class="clear-b"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <hr class="mt-15 mb-15">
+                            <h3 class="fs-12 mb-10">Ikuti Kami</h3>
+                            <div><a target="_blank" href="https://www.facebook.com/tokopedia"><i class="icon-facebook-circle color-facebook fs-20"></i></a><a target="_blank" href="https://twitter.com/tokopedia"><i class="icon-twitter-circle color-twitter fs-20"></i></a><a target="_blank" href="https://plus.google.com/+tokopedia/posts"><i class="icon-google-plus-circle color-gplus fs-20"></i></a><a target="_blank" href="https://www.pinterest.com/tokopedia/"><i class="icon-pinterest-circle color-pinterest fs-20"></i></a><a target="_blank" href="http://instagram.com/tokopedia"><i class="icon-instagram-circle color-instagram fs-20"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-additional">
+            <div class="row-fluid">
+                <div class="span4"><img class="mr-5" src="http://rw-wibi.ndvl/img/footer/toped.png" width="40" alt="Tokopedia Logo">
+                    <div class="inline-block va-middle"><small class="muted">© 2009-2017, PT Tokopedia </small><br><small class="muted">Server process time: 2.059 secs.</small></div>
+                </div>
+                <div class="span4 text-center"></div>
+                <div class="span4">
+                    <div class="row-fluid">
+                        <div class="span5 pull-right">
+                            <div class="btn-group pull-right"><a class="btn btn-switch btn-small active"><small>Indonesia</small></a><a class="btn btn-switch btn-small switch-lang" id="lang-en"><small>English</small></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
